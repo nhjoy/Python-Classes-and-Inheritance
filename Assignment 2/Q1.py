@@ -63,4 +63,10 @@ class Grass_Pokemon(Pokemon):
     def moves(self):
         self.p_moves = ["razor leaf", "synthesis", "petal dance"]
 
+class Grass_Pokemon(Pokemon):
+
+    def action(self):
+        return self.name + " knows a lot of different moves!"
+
+p1 = Grass_Pokemon("Belle", 10)
 
